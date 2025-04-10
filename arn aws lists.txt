@@ -1,0 +1,35 @@
+Service	Resource	      ARN Format/Pattern                                                                      link found
+S3	accesspoint	      arn:${Partition}:s3:${Region}:${Account}:accesspoint/${AccessPointName}             
+
+link: https://docs.aws.amazon.com/serviceauthorization/latest/reference/list_amazons3.html#amazons3-resources-for-iam-policies
+
+S3	bucket		      arn:${Partition}:s3:::${BucketName}
+
+link: https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazons3.html#amazons3-resources-for-iam-policies
+
+S3	storagelensgroup      arn:${Partition}:s3:${Region}:${Account}:storage-lens-group/${Name}
+link: https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazons3.html#amazons3-resources-for-iam-policies
+
+
+
+IAM	mfa		     arn:${Partition}:iam::${Account}:mfa/${MfaTokenIdWithPath}
+
+link: https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsidentityandaccessmanagementiam.html#awsidentityandaccessmanagementiam-	resources-for-iam-policies
+
+IAM	role		     arn:${Partition}:iam::${Account}:role/${RoleNameWithPath}
+link: https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsidentityandaccessmanagementiam.html#awsidentityandaccessmanagementiam-	resources-for-iam-policies
+
+IAM	user		     arn:${Partition}:iam::${Account}:user/${UserNameWithPath}
+link: https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsidentityandaccessmanagementiam.html#awsidentityandaccessmanagementiam-	resources-for-iam-policies
+
+EC2	elastic-ip	     arn:${Partition}:ec2:${Region}:${Account}:elastic-ip/${AllocationId}
+link: https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2.html#amazonec2-resources-for-iam-policies
+
+EC2	fleet		    arn:${Partition}:ec2:${Region}:${Account}:fleet/${FleetId}
+link:  https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2.html#amazonec2-resources-for-iam-policies
+
+EC2	instance	    arn:${Partition}:ec2:${Region}:${Account}:instance/${InstanceId}
+link:  https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2.html#amazonec2-resources-for-iam-policies
+
+EC2	image		    arn:${Partition}:ec2:${Region}::image/${ImageId}
+link:   https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2.html#amazonec2-resources-for-iam-policies
